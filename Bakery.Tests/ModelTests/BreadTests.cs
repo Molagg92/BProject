@@ -18,8 +18,8 @@ namespace Bakery.Tests
   [TestMethod]
     public void BreadOrder_ReturnOrderTotal_int()
     { 
-    Bread newBread2 = new Bread(2);
-    Assert.AreEqual(1, newBread2.BreadOrder());
+    Bread newBread2 = new Bread(3);
+    Assert.AreEqual(10, newBread2.BreadOrder());
     } 
 
   }
