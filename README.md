@@ -18,7 +18,7 @@ _This small application can return to yout he correct total of any number of loa
 
 ## Setup/Installation Requirements
 
-* _Follow this link,click the CODE button on the top right corner of teh repo, and copy the path under clone!  https://github.com/Molagg92/Bakery.git_
+* _Follow this link,click the CODE button on the top right corner of teh repo, and copy the path under clone! _https://github.com/Molagg92/BProject.git_
 
 * _in your terminal, tavel to your Desktop directory, type git clone, paste the link we copied_
 * _travel to BakeryProject.Solutions/Bakery in your terminal, type dotnet run_
