@@ -16,8 +16,8 @@ namespace Bakery.Tests
       [TestMethod]
    public void PastryOrder_ReturnOrderTotal_int()
    {
-    Pastry newPastry = new Pastry(2);
-     Assert.AreEqual(1, newPastry.PastryOrder());
+    Pastry newPastry = new Pastry(6);
+     Assert.AreEqual(10, newPastry.PastryOrder());
    }
   }
 } 
