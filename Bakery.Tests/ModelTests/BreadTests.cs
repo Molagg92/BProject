@@ -8,12 +8,19 @@ namespace Bakery.Tests
   public class BreadTests
   {
 
- [TestMethod]
+  [TestMethod]
     public void BreadConstructor_CreateInstanceOfBread_Bread()
     {
       Bread newBread = new Bread(3);
       Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
+
+  [TestMethod]
+    public void BreadOrder_ReturnOrderTotal_int()
+    { 
+    Bread newBread2 = new Bread(2);
+    Assert.AreEqual(1, newBread2.BreadOrder());
+    } 
 
   }
 }
