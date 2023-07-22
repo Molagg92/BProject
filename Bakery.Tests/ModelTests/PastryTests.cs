@@ -14,10 +14,16 @@ namespace Bakery.Tests
       Assert.AreEqual(typeof(Pastry), newPastry.GetType());
     }
       [TestMethod]
-   public void PastryOrder_ReturnOrderTotal_int()
+   public void PastryOrderBasicMath_ReturnBasicPastryMath_int()
    {
-    Pastry newPastry = new Pastry(6);
-     Assert.AreEqual(8, newPastry.PastryOrder());
+    Pastry newPastry = new Pastry(7);
+     Assert.AreEqual(14, newPastry.PastryOrder());
    }
+  //     [TestMethod]
+  //  public void PastryOrder_ReturnOrderTotal_int()
+  //  {
+  //   Pastry newPastry = new Pastry(7);
+  //    Assert.AreEqual(12, newPastry.PastryOrder());
+  //  }
   }
 } 
