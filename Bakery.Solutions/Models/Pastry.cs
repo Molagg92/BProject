@@ -13,9 +13,7 @@ namespace Bakery.Models
     }
      public int PastryOrder()
     {
-      return  PastryQuantity * Price;
-
-      // ((PastryQuantity / 4) * 3 + (PastryQuantity % 4)) *
+      return  ((PastryQuantity / 4) * 3 + (PastryQuantity % 4)) * Price;
     }
   }
 }

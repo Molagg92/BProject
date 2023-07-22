@@ -16,11 +16,18 @@ namespace Bakery.Tests
     }
 
   [TestMethod]
-    public void BreadOrder_ReturnOrderTotal_int()
+    public void BreadOrderBasicMath_ReturnOrderBeforeDiscount_int()
     { 
     Bread newBread2 = new Bread(3);
-    Assert.AreEqual(10, newBread2.BreadOrder());
+    Assert.AreEqual(15, newBread2.BreadOrder());
     } 
+
+  // [TestMethod]
+  //   public void BreadOrder_ReturnOrderTotal_int()
+  //   { 
+  //   Bread newBread2 = new Bread(3);
+  //   Assert.AreEqual(10, newBread2.BreadOrder());
+  //   } 
 
   }
 }

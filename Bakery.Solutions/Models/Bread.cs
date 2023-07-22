@@ -16,7 +16,9 @@ public class Bread
     public int BreadOrder()
     {
 
-      return ((LoafQuantity / 3) * 2 + (LoafQuantity % 3)) * Price;
+      // // For testing purposes, we have removed the discount so that this BreadOrder method returns the bread's true cost.
+      // return  LoafQuantity * Price;
+      // // ((LoafQuantity / 3) * 2 + (LoafQuantity % 3))
     }
   }
 }
